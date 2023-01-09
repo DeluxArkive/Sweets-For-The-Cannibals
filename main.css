@@ -1,0 +1,81 @@
+*{margin: 0;}
+
+html, body {
+  font-family: 'Permanent Marker', cursive, sans-serif;
+  height: 100%;
+}
+html{
+    background-color: black;
+    background: url(img/TD-3.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.SFTC-banner{
+	 z-index: 1;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+ background: rgb(255,255,255);
+ background: -moz-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(51,51,51,1) 100%);
+ background: -webkit-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(51,51,51,1) 100%);
+ background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(51,51,51,1) 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#333333",GradientType=1);
+ }
+.SFTC{
+  font-family: 'Creepster', cursive, sans-serif;
+    height: auto;
+    text-align: center;
+}
+
+div.menubar {
+    height: auto;
+    text-align: center;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.menubar a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  div.menubar a:hover {
+    background-color: #777;
+  }
+  .box {
+background-color: antiquewhite;
+}
+.center {
+    text-align: center;
+}
+.SFTC-new-song{
+  background: rgb(255,255,255);
+  background: -moz-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(51,51,51,1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(51,51,51,1) 100%);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(51,51,51,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#333333",GradientType=1);
+}
+  .SFTC-footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+	 z-index: 1;
+    background: rgb(255,255,255);
+    background: -moz-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(51,51,51,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(51,51,51,1) 100%);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(51,51,51,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#333333",GradientType=1);
+ }
+ /* Style Responsiv start*/
+  @-o-viewport{
+  zoom: 1.0;
+  width: extend-to-zoom;}
+
+  @-ms-viewport{
+  width: extend-to-zoom;
+  zoom: 1.0;}
+  
